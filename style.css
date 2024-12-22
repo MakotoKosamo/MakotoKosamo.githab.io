@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+body{
+  margin:0;; /*отсупы*/
+  background-image: url(images/zastavka.png) ;
+}
+
+header{
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+  font-weight: 350;
+  font-style: normal;
+  display:flex;
+  opacity: 0.8;
+  align-items: center;
+  height: 80px;
+  padding: 0px 25px;
+  background-color: #000000; /*Залить фон цветом*/
+  color:#7B67DF;
+  font-size: 25px;
+}
+.profil{
+  font-weight: bold;
+  font-weight: 350;
+  font-style: normal;
+  display:flex;
+  align-items: center;
+  opacity: 50;
+  width: 440px;
+  padding: 0px 25px;
+  background-color: #131212; /*Залить фон цветом*/
+  color:#7B67DF;
+  font-size: 25px;
+  position: fixed;
+  right: -20px;
+}
+.foto{
+  font-weight: bold;
+  font-weight: 50;
+  font-style: normal;
+  font: 15px Times New Roman;
+  display:flex;
+  align-items: center;
+  opacity: 50;
+  width: 5px;
+  height: 50px;
+  padding: 0px 25px;
+  background-color: #494444; /*Залить фон цветом*/
+  color:#000000;
+  position: fixed;
+  top: 15px;
+  right: 400px;
+}
+.gl{
+  margin-right: 50000px;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin: 100px;
+}
+header a{ 
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 20px;
+  color: #18191F;
+  text-decoration: none;
+  margin-right: 52px;
+  color:#AEA0F6;
+  font-size: 27px;
+}
+html {
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+.img {
+  position: relative; left: 18px; top: 14px;
+  background: rgba(0, 0, 0, 0.5); /* Чёрный с непрозрачностью 50% */
+}
+.wxod {
+ padding: 30px; /*Отступы для текста*/ 
+ background: white; /* Задаем цвет фона */
+  margin: 0 auto; /* Центрируем блок */ 
+  width: 20%; /* Задаем ширину блока */  
+  opacity: 0.4; /* Задаем прозрачность */ 
+  font: 25px/30px Times New Roman; 
+  text-align: justify; 
+  position: relative;
+  top: 40px;
+  right: 680px;
+}
+  .btn {
+    font: inherit;
+    padding: 10px 20px;
+    font-size: 32px;
+    background: none;
+    border: 1px solid #fff;
+    color: #fff;
+    cursor: pointer;
+    height: fit-content;
+    align-self: center;
+    transition: 0.5s;
+}
+
+.btn:hover,
+.btn:active {
+    background: #fff;
+    color: #272727;
+}
+.flex{
+  display: flex;
+  justify-content: space-between;
+}
+.logo{
+  padding: 50 50px;
+}
+
+.item{
+  margin: 0 -5px;
+} 
+button{
+  text-align:center; 
+  display:flex; 
+  justify-content:center; 
+  align-items:center; 
+  height:4vh;
+  border-radius: 40px;
+  border: 3px solid #917EF6;
+  font-size: 30px;
+  margin: 0 auto; 
+  display: block;
+  background: #d9d9d9; /* Задаем цвет фона */
+  text-align: center;
+  background-size: contain;
+  text-decoration: none 
+}
+.parol{
+  border-color: #7f28f8;
+  color: #6200EE;
+  width: 100px;
+}
+
+.parol:hover {
+  background: #6200EE;
+  color: white;
+}
+a { text-decoration: none; }
+/*
+.toggle .switch{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 39px;
+  height: 39px;
+  border-radius: 50%;
+  background: linear-gradient(180deg,#43039c,#8056bb );
+  transform: scale(0.9);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  transform: 0.5s;
+}
+.toggle.active .switch{
+  left:130px;
+  background: linear-gradient(180deg,#fdff71,#c3c9b9 );
+} */
+.toggle{
+  width: 60px;
+  height: 60px;
+  background: url(images/тьма.png);
+  border-radius: 100px;
+  box-shadow: inset 0 4px 4px rgba(0, 0, 0, 0.2),
+  inset 0 -4px 4px rgba(0, 0, 0, 0.2),
+  inset 0 4px 4px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  position: relative;
+  transition: 0.5s;
+  background-image:url(images/тьма.png) ;
+  background-size: cover;
+  left: 40px;
+}
+.toggle.active{
+  background-image:url(images/свет.png) ;
+  background-color: url(images/свет.png);
+}
+
+.nav > li{
+  padding-left:300px;
+  padding-right:300px;
+}
+
+.img{
+  margin-left: 20px;
+}
+.logo{
+ margin-left: -10px;
+}
+.glavnay{
+  margin-left: -75px;
+}
+.treygolnik{
+  color:#917EF6; 
+  font-family: shikimori;
+}
+span{
+  margin-top: -20px;
+}
+.woeti{
+  position: fixed;
+  right: -20px;
+  top: 30px;
+}
