@@ -1,73 +1,68 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
-body{
-  margin:0;; /*отсупы*/
-  background-image: url(images/zastavka.png) ;
+body {
+  margin: 0; /*отсупы*/
+  background-image: url(images/zastavka.png);
 }
 
-header{
+header {
   font-family: 'Ubuntu', sans-serif;
   font-weight: bold;
   font-weight: 350;
   font-style: normal;
-  display:flex;
+  display: inline-block;
   opacity: 0.8;
   align-items: center;
+  width: 100%;
   height: 80px;
-  padding: 0px 25px;
+  padding: 0px 38px;
   background-color: #000000; /*Залить фон цветом*/
-  color:#7B67DF;
+  color: #7b67df;
   font-size: 25px;
 }
-.profil{
+.profil {
   font-weight: bold;
-  font-weight: 350;
   font-style: normal;
-  display:flex;
+  display: flex;
   align-items: center;
   opacity: 50;
-  width: 440px;
-  padding: 0px 25px;
   background-color: #131212; /*Залить фон цветом*/
-  color:#7B67DF;
-  font-size: 25px;
-  position: fixed;
-  right: -20px;
+  margin-top: -157px;
+  margin-left: 1450px;
+  left: 1550px;
 }
-.foto{
+.foto {
   font-weight: bold;
   font-weight: 50;
   font-style: normal;
   font: 15px Times New Roman;
-  display:flex;
+  display: flex;
   align-items: center;
   opacity: 50;
-  width: 5px;
+  width: 53px;
   height: 50px;
-  padding: 0px 25px;
+  padding: 0px 0px;
   background-color: #494444; /*Залить фон цветом*/
-  color:#000000;
-  position: fixed;
+  color: #000000;
   top: 15px;
-  right: 400px;
+  right: 490px;
+  margin-right: 10px;
 }
-.gl{
-  margin-right: 50000px;
-  display:flex;
-  justify-content: space-between;
+.gl {
+  display: flex;
+  bottom: 10px;
   align-items: center;
   flex-wrap: wrap;
   flex-direction: row;
-  margin: 100px;
 }
-header a{ 
+header a {
   font-weight: 400;
   font-style: normal;
   font-size: 14px;
   line-height: 20px;
-  color: #18191F;
+  color: #18191f;
   text-decoration: none;
   margin-right: 52px;
-  color:#AEA0F6;
+  color: #aea0f6;
   font-size: 27px;
 }
 html {
@@ -75,77 +70,100 @@ html {
   overflow-y: scroll;
 }
 .img {
-  position: relative; left: 18px; top: 14px;
+  position: relative;
+  left: 18px;
+  top: 10px;
   background: rgba(0, 0, 0, 0.5); /* Чёрный с непрозрачностью 50% */
 }
 .wxod {
- padding: 30px; /*Отступы для текста*/ 
- background: white; /* Задаем цвет фона */
-  margin: 0 auto; /* Центрируем блок */ 
-  width: 20%; /* Задаем ширину блока */  
-  opacity: 0.4; /* Задаем прозрачность */ 
-  font: 25px/30px Times New Roman; 
-  text-align: justify; 
-  position: relative;
-  top: 40px;
-  right: 680px;
+  padding: 30px; /*Отступы для текста*/
+  background: white; /* Задаем цвет фона */
+  width: 360px; /* Задаем ширину блока */
+  height: 259px;
+  opacity: 0.4; /* Задаем прозрачность */
+  font: 25px/30px Times New Roman;
+  text-align: justify;
 }
-  .btn {
-    font: inherit;
-    padding: 10px 20px;
-    font-size: 32px;
-    background: none;
-    border: 1px solid #fff;
-    color: #fff;
-    cursor: pointer;
-    height: fit-content;
-    align-self: center;
-    transition: 0.5s;
+.wxod2{
+  padding-top: 30px; /*Отступы для текста*/
+  background: white; /* Задаем цвет фона */
+  width: 900px; /* Задаем ширину блока */
+  height: 900px;
+  opacity: 0.4; /* Задаем прозрачность */
+  font: 50px/70px Times New Roman;
+  text-align: justify;
+  margin-left: 490px;
+  text-align: center;
+}
+.popular {
+  justify-content: end;
+  padding: 30px; /*Отступы для текста*/
+  background: rgba(255, 255, 255, 0.4); /* Задаем цвет фона */
+  width: 70%; /* Задаем ширину блока */
+  height: 1px;
+  font: 25px/30px Times New Roman;
+  text-align: justify;
+}
+.btn {
+  font: inherit;
+  /* padding: 10px 20px; */
+  font-size: 32px;
+  background: none;
+  border: 1px solid #fff;
+  color: #fff;
+  cursor: pointer;
+  height: fit-content;
+  align-self: center;
+  transition: 0.5s;
 }
 
 .btn:hover,
 .btn:active {
-    background: #fff;
-    color: #272727;
+  background: #fff;
+  color: #272727;
 }
-.flex{
-  display: flex;
+h5 {
+  margin-top: -12px;
+}
+.ava {
+  margin-top: 16px;
+  right: 500px;
+}
+.flex {
   justify-content: space-between;
 }
-.logo{
-  padding: 50 50px;
-}
 
-.item{
+.item {
   margin: 0 -5px;
-} 
-button{
-  text-align:center; 
-  display:flex; 
-  justify-content:center; 
-  align-items:center; 
-  height:4vh;
+}
+button {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border-radius: 40px;
-  border: 3px solid #917EF6;
+  border: 3px solid #917ef6;
   font-size: 30px;
-  margin: 0 auto; 
+  margin: 30;
   display: block;
   background: #d9d9d9; /* Задаем цвет фона */
   text-align: center;
   background-size: contain;
-  text-decoration: none 
+  text-decoration: none;
 }
-.parol{
+.parol {
   border-color: #7f28f8;
-  color: #6200EE;
+  color: #6200ee;
   width: 100px;
 }
 
 .parol:hover {
-  background: #6200EE;
+  background: #6200ee;
   color: white;
 }
-a { text-decoration: none; }
+a {
+  text-decoration: none;
+}
 /*
 .toggle .switch{
   position: absolute;
@@ -163,49 +181,116 @@ a { text-decoration: none; }
   left:130px;
   background: linear-gradient(180deg,#fdff71,#c3c9b9 );
 } */
-.toggle{
+.toggle {
   width: 60px;
   height: 60px;
   background: url(images/тьма.png);
   border-radius: 100px;
   box-shadow: inset 0 4px 4px rgba(0, 0, 0, 0.2),
-  inset 0 -4px 4px rgba(0, 0, 0, 0.2),
-  inset 0 4px 4px rgba(0, 0, 0, 0.2);
+    inset 0 -4px 4px rgba(0, 0, 0, 0.2), inset 0 4px 4px rgba(0, 0, 0, 0.2);
   cursor: pointer;
   position: relative;
   transition: 0.5s;
-  background-image:url(images/тьма.png) ;
+  background-image: url(images/тьма.png);
   background-size: cover;
-  left: 40px;
+  right: -1350px;
+  top: -85px;
 }
-.toggle.active{
-  background-image:url(images/свет.png) ;
+.toggle.active {
+  background-image: url(images/свет.png);
   background-color: url(images/свет.png);
 }
 
-.nav > li{
-  padding-left:300px;
-  padding-right:300px;
+.nav > li {
+  padding-left: 300px;
+  padding-right: 300px;
 }
 
-.img{
-  margin-left: 20px;
+.img {
+  left: 1250px;
+  top: -30px;
+  position: relative;
+
 }
-.logo{
- margin-left: -10px;
+.logo {
+  margin-left: -10px;
+  margin-top: 23px;
 }
-.glavnay{
-  margin-left: -75px;
+.glavnay {
+  margin-left: 250px;
 }
-.treygolnik{
-  color:#917EF6; 
-  font-family: shikimori;
+.treygolnik {
+  color: #917ef6;
 }
-span{
+span {
   margin-top: -20px;
 }
-.woeti{
-  position: fixed;
-  right: -20px;
-  top: 30px;
+.woeti {
+  font-size: 20px;
+}
+
+article {
+  display: flex;
+  gap: 340px;
+  padding: 30px;
+}
+textarea {
+  resize: none;
+}
+.bx-wrapper {
+  background: none;
+  border: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  width: 800px !important;
+}
+nav {
+  margin-top: -27px;
+}
+li {
+  list-style-type: none; /* Убираем маркеры */
+}
+textarea {
+  width: 760px;
+}
+.slider > div {
+  display: flex;
+  width: 1000px !important;
+  margin-left: 15px;
+}
+.slider img {
+  width: 150px;
+  margin-right: -40px;
+}
+
+.bx-wrapper .bx-controls-direction a {
+  top: 120px;
+}
+
+.bx-next {
+  right: -4px !important;
+}
+.bx-caption span {
+  margin: 0;
+  padding: 0 10px !important;
+  font-size: 18px!important;
+  height: 20px;
+  position: relative;
+  bottom: 4px;
+}
+
+.slider-wrapper {
+  justify-content: center;
+}
+.bx-wrapper
+.bx-caption{
+  width: 150px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden; 
+  background: rgba(80, 80, 80, 0);
+  top: 205px;
+}
+ul{
+  margin-right: 300px;
 }

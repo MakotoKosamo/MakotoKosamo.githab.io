@@ -1,17 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Otaky heart rhythm</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+
+    <!--подключаем jquery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!--подключаем bxSlider-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css"
+    />
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+    <link rel="stylesheet" href="slider.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <header>
-        <div class="logo">Otaky heart rhythm </div>
-        <nav class="gl">
-            <!--<div class="menu-dropdown main">
+      <div class="logo">Otaky heart rhythm</div>
+      <nav class="gl">
+        <!--<div class="menu-dropdown main">
                 <span class="menu-icon trigger mobile" tabindex="-1"></span>
                 <span class="submenu-triangle icon-home" tabindex="0">
                     ::before
@@ -38,54 +48,125 @@
                     <a class="icon-socials" href="" tabindex="-1" title="Мы в соц. сетях">Мы в соц. сетях</a>
                 </div>
             </div> -->
-            <a href="" class="glavnay" font-size="500px">Главная</a>
-            <span class="treygolnik"></span>
-            <textarea rows="1" cols="80" id="TITLE">
-                
-            </textarea>
-            <input type="submit" value="Найти"></p>
-           <!-- <div class="poisk">
+        <a href="index.html" class="glavnay" font-size="500px">Главная</a>
+        <span class="treygolnik"></span>
+        <textarea rows="1" cols="80" id="TITLE"> </textarea>
+        <input class="naiti" type="submit" value="Найти" />
+        <!-- <div class="poisk">
             <form>
                 <p><input type="search" name="q" placeholder="Поиск по сайту">
-                     
+
             </form>
             <button style="background: url()" >
                 </div> -->
-                <span><a href="" class="img"><img width="55px" height="45px" src="images/форум.svg" alt="Форум"></a></span>
-                <!--<span><a href="" class="img"><img width="46px" height="41px" src="images/сердце.png" alt="Избранное"></a></span>
+      </nav>
+      <span
+        ><a href="" class="img"
+          ><img
+            width="55px"
+            height="45px"
+            src="images/форум.svg"
+            alt="Форум" /></a
+      ></span>
+      <!--<span><a href="" class="img"><img width="46px" height="41px" src="images/сердце.png" alt="Избранное"></a></span>
                 <span><a href="" class="img"><img width="50px" height="45px" src="images/музыка.png" alt="Музыка"></a></span> -->
-                <div class="toggle">
-                    <div class="switch"></div>
-                </div>
-                <header class="profil">
-                    <header class="foto">
-                        <h5 class="ava">фото профиля</h5>
-                    </header>
-                <a href="" class="woeti">Войти/Зарегистрироваться</a>
-            </header>
-        </nav>
+      <div class="toggle">
+        <div class="switch"></div>
+      </div>
+      <header class="profil">
+        <header class="foto">
+          <h5 class="ava">
+            <ul>
+              <li>фото</li>
+              <li>профиля</li>
+            </ul>
+          </h5>
+        </header>
+        <a href="index3.html" class="woeti">Войти/Зарегистрироваться</a>
+      </header>
     </header>
     <main>
-        <article>
-            <div class="wxod">
-                <button><a div class="parol" href="index1.html" >Вход по паролю</a></button>
-                <h5>Вход через соц. сети</h5>
-                <img width="35px" height="40px" src="images/гугл.svg" alt="Google">
-                <img width="49px" height="43px" src="images/вк.svg" alt="ВКонтакте">
-                <img width="60px" height="45px" src="images/твитер.svg" alt="Twitter">
-                <img width="42px" height="42px" src="images/фейсбук.svg" alt="Facebook">
-                <img width="35px" height="40px" src="images/яндекс.svg" alt="Яндекс">
-                <div class="flex">
-                    <p>Регистрация</p>
-                    <!-- <button type="button" class="btn">Зарегистрироваться</button> -->
-                    <p>Востановление пароля</p>
-                </div>
+      <article>
+        <div class="wxod">
+          <h5>Вход через соц. сети</h5>
+          <img width="35px" height="40px" src="images/гугл.svg" alt="Google" />
+          <img width="49px" height="43px" src="images/вк.svg" alt="ВКонтакте" />
+          <img
+            width="60px"
+            height="45px"
+            src="images/твитер.svg"
+            alt="Twitter"
+          />
+          <img
+            width="42px"
+            height="42px"
+            src="images/фейсбук.svg"
+            alt="Facebook"
+          />
+          <img
+            width="35px"
+            height="40px"
+            src="images/яндекс.svg"
+            alt="Яндекс"
+          />
+          <div class="flex">
+            <button>
+              <a div class="parol" a href="index2.html">Вход по паролю</a>
+            </button>
+            <p src="index2.html">Регистрация</p>
+            <!-- <button type="button" class="btn">Зарегистрироваться</button> -->
+            <p a href="index4.html">Востановление пароля</p>
+          </div>
+        </div>
+        <div class="popular">
+          <h5>Сейчас популярно</h5>
+          <div class="slider-wrapper">
+            <div class="slider">
+              <div>
+                <img src="images/монолог.jpg" title="Монолог фармацевта" />
+                <img
+                  src="images/фриен.png" title="Провожающая в последний путь Фрирен" />
+                <img
+                  src="images/поднятие.png"
+                  title="Поднятие уровня в одиночку"
+                />
+                <img
+                  src="images/добро.png"
+                  title="Добро пожаловать в класс превосодства"
+                />
+                <img
+                  src="images/небожители.png"
+                  title="Благословение небожителей"
+                />
+                <img src="images/нежить и неудача.png" title="Нежить и неудача" />
+                <img src="images/атака титанов.png" title="Атака Титанов" />
+              </div>
+              <div>
+                <img src="images/монолог.jpg" title="Монолог фармацевта" />
+                <img
+                  src="images/фриен.png"
+                  title="Провожающая в последний путь Фрирен"
+                />
+                <img
+                  src="images/поднятие.png"
+                  title="Поднятие уровня в одиночку"
+                />
+                <img
+                  src="images/добро.png"
+                  title="Добро пожаловать в класс превосодства"
+                />
+                <img
+                  src="images/небожители.png"
+                  title="Благословение небожителей"
+                />
+              </div>
             </div>
-        </article>
+          </div>
+        </div>
+      </article>
     </main>
+    <script src="slider.js"></script>
     <script src="./main.js"></script>
-</body>
-</html>
-<body>
     <script src="script.js"></script>
-</body>
+  </body>
+</html>
